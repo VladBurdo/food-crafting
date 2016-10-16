@@ -55,6 +55,7 @@ li {
   background: #eee;
   padding: 10px;
   display: block;
+  cursor:pointer;
 }
 
 #bin {
