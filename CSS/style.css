@@ -1,0 +1,80 @@
+html {
+  background: url(/images/adel.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#bodycenter{
+  width: 1000px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.left{
+  width: 45%;
+  float: left;
+  margin: 2.5%;
+}
+.shap{
+  color: blue;
+  border: 1px solid black;
+  background: #ce8a36;
+}
+#product{
+  background-color:#ffffff;
+  height: 350px;
+  margin: 10px;
+  margin-top: 0px;
+  padding: 10px;
+  border: 1px solid black;
+  overflow: auto;
+  }
+#addprod,#addfood,#addIngred{
+  height: 35px;
+  margin-bottom: 10px;
+}
+.right{
+  width: 45%;
+  float: right;
+  margin: 2.5%;
+}
+#food,#Ingred{
+  background-color:#ffffff;
+  height: 200px;
+  margin: 10px;
+  margin-top: 0px;
+  padding: 10px;
+  border: 1px solid black;
+  overflow: auto;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  width: 150px;
+  border: 2px dashed #999;
+  background: #eee;
+  padding: 10px;
+  display: block;
+}
+
+#bin {
+  background: url(/images/trashcan.png) center center no-repeat;
+  height: 180px;
+  width: 130px;
+  margin: 5%;
+  text-align: center;
+  background-size: cover;
+}
+.delet-product{
+  float: right;
+  margin-top: 50%;
+}
+.activ{
+  background: #ef8021;
+}
+.red{
+  background: red;
+}
+.green{
+  background: green;
+}
